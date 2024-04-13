@@ -1,0 +1,103 @@
+/* 'sm': '640px', */
+@media (min-width: 640px) {
+}
+
+/* 'md': '768px', */
+@media (min-width: 768px) {
+}
+
+/* 'lg': '1024px', */
+@media (min-width: 1024px) {
+}
+
+/* 'xl': '1280px', */
+@media (min-width: 1280px) {
+}
+
+/* '2xl': '1536px', */
+@media (min-width: 1536px) {
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 1024px) {
+  .nav .container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .landing .container {
+    flex-direction: row;
+  }
+  .landing .text {
+    text-align: left;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .landing .text h2 {
+    text-align: left;
+  }
+  .landing picture.img {
+    width: 40%;
+  }
+  .landing .text {
+    width: 40%;
+  }
+}
+@media (min-width: 780px) {
+  .CHEFS .cards .chef-card {
+    width: calc(calc(100% / 2) - 20px);
+  }
+}
+@media (min-width: 1024px) {
+  .CHEFS .cards .chef-card {
+    width: calc(calc(100% / 3) - 20px);
+  }
+}
+@media (min-width: 780px) {
+  .GALLERY .gallery-photos .column {
+    width: calc(calc(100% / 2) - 20px);
+  }
+}
+@media (min-width: 1024px) {
+  .GALLERY .gallery-photos .column {
+    width: calc(calc(100% / 3) - 20px);
+  }
+}
+@media (min-width: 780px) {
+  .CONTACT .contact-details .details {
+    width: calc(calc(100% - 15px) / 2);
+  }
+}
+@media (min-width: 1024px) {
+  .CONTACT .information-to-contact .input {
+    flex-wrap: wrap;
+  }
+  .CONTACT .information-to-contact .your {
+    width: calc(calc(100% - 15px) / 2);
+  }
+  .CONTACT .information-to-contact .subject {
+    width: 100%;
+  }
+  .CONTACT .information-to-contact textarea {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  footer .container {
+    flex-direction: row;
+  }
+  footer .Get-in-Touch {
+    width: calc(calc(100% / 4) - 20px);
+  }
+  footer .Newsletter {
+    width: calc(calc(100% / 2) - 20px);
+  }
+  footer .about {
+    width: calc(calc(100% / 4) - 10px);
+  }
+}
