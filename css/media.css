@@ -18,6 +18,12 @@
 @media (min-width: 1536px) {
 }
 
+@media (max-width: 450px) {
+  .landing .container {
+    margin-top: 150px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   header {
     min-height: 100vh;
