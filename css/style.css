@@ -454,6 +454,15 @@ textarea {
 .CONTACT .information-to-contact button:hover {
   background-color: hsl(0, 84%, calc(44% + 5%));
 }
+.CONTACT #char-counter {
+  align-self: self-start;
+  color: #ef5261;
+}
+.CONTACT .compbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
 /* <!-- End CONTACT --> */
 /* <!-- Footer --> */

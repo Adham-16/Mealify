@@ -79,6 +79,14 @@
     width: calc(calc(100% - 15px) / 2);
   }
 }
+@media (max-width: 780px) {
+  .CONTACT .compbox {
+    flex-wrap: wrap;
+  }
+  .CONTACT #char-counter {
+    margin-bottom: 10px;
+  }
+}
 @media (min-width: 1024px) {
   .CONTACT .information-to-contact .input {
     flex-wrap: wrap;

@@ -279,12 +279,14 @@
               type="text"
               placeholder="Your Name"
               name="name"
+              id="name"
             />
             <input
               class="your your1"
-              type="text"
+              type="email"
               placeholder="Your Email"
-              name="Email"
+              name="email"
+              id="email"
             />
           </div>
           <input
@@ -292,15 +294,21 @@
             type="text"
             placeholder="Subject"
             name="subject"
+            id="subject"
           />
           <textarea
-            name="massage"
+            name="message"
             placeholder="Message"
             cols="30"
             rows="6"
             class="massage your1"
+            id="message"
           ></textarea>
-          <button type="submit">Send Message</button>
+          <div class="compbox">
+            <div id="char-counter">Characters left: 200</div>
+            <div id="error-messages" style="color: red"></div>
+          </div>
+          <button type="button" id="submit-btn">Send Message</button>
         </div>
       </div>
     </div>
